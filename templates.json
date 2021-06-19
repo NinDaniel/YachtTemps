@@ -15,6 +15,7 @@
                 "Game": "7777/tcp"
             }
         ],
+        "network_mode": "bridge",
         "volumes": [
             {
                 "container": "/config",
