@@ -72,42 +72,6 @@
     },
     {
         "type": 1,
-        "title": "tModLoader",
-        "name": "tModLoader",
-        "image": "rfvgyhn/tmodloader:latest",
-        "description": "A simple tModLoader server. NO MOD SUPPORT YET!",
-        "logo": "https://static.wikia.nocookie.net/terraria_gamepedia/images/e/e0/TModLoader_Logo.png",
-        "note": "UNDER DEVELOPMENT",
-        "categories": [
-            "Gaming"
-        ],
-        "platform": "linux",
-        "restart_policy": "unless-stopped",
-        "ports": [
-            {
-                "Game": "7777/tcp",
-                "Back": "7878/tcp"
-            }
-        ],
-        "network_mode": "bridge",
-        "volumes": [
-            {
-                "container": "/config",
-                "bind": "/srvconfs/Terraria"
-            }
-        ],
-        "env": [],
-        "command": [
-            "-world",
-            "Kakuhen.wld",
-            "-autocreate",
-            "2",
-            "-config",
-            "/config/expert.txt"
-        ]
-    },
-    {
-        "type": 1,
         "title": "Minecraft",
         "name": "Minecraft",
         "image": "itzg/minecraft:latest",
@@ -144,7 +108,7 @@
         "type": 1,
         "title": "Minecraft Bedrock",
         "name": "Bedrock",
-        "image": "itzg/minecraft-bedrock-server",
+        "image": "itzg/minecraft-bedrock-server:latest",
         "description": "A vanilla Java Minecraft server.",
         "logo": "https://static.wikia.nocookie.net/logopedia/images/1/1d/Minecraft-bedrock-logo.png",
         "note": "UNDER DEVELOPMENT!",
