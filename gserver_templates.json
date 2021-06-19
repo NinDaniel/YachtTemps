@@ -42,14 +42,13 @@
         "type": 1,
         "title": "Minecraft",
         "name": "vmc",
-        "image": "itzg/minecraft-server:latest",
+        "image": "itzg/minecraft:latest",
         "description": "A vanilla java Minecraft server :D",
         "categories": [
             "Gaming"
         ],
         "platform": "linux",
-        "note": "",
-        "restart_policy": "unless-stopped",
+        "note": "For a full list of environment variables, click <a href='https://github.com/itzg/docker-minecraft-server/blob/master/README.md#server-configuration'/>here</a>",
         "ports": [
             {
                 "Game": "25565/tcp",
@@ -62,6 +61,22 @@
                 "name": "EULA",
                 "default": "TRUE",
                 "description": "Enables EULA (Required)"
+            },
+            {
+                "name": "SERVER_NAME",
+                "default": "My Server",
+                "description": "Sets the displayed server name"
+            },
+            {
+                "name": "DIFFICULTY",
+                "default": "normal",
+                "description": "Valid values are: peaceful, easy, normal, and hard"
+            },
+            {
+
+                "name": "OPS",
+                "default": "NinxDaniel,SomeOtherDude",
+                "description": "Sets the administrators of the server. Add additional users through commas: user1,user2"
             }
         ],
         "command": [],
