@@ -33,5 +33,41 @@
         ],
         "logo": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png",
         "note": "Be sure to check the Commands sections under the Advanced tab for configuration! Edit command 1 to change the world name. Edit command 3 to change the world size (1-Small, 2-Medium, 3-Large). Edit command 5 to change the world difficulty (classic.txt, expert.txt, master.txt)."
+    },
+    {
+        "type": "1",
+        "title": "tShock",
+        "name": "tShock",
+        "image": "ryshe/terraria:latest",
+        "description": "A simple tShock Terraria server. It's running the base plugins. More plugin install options to come eventually!",
+        "catgories": [
+            "Gaming"
+        ],
+        "platform": "linux",
+        "restart_policy": "unless-stopped",
+        "ports": [
+            {
+                "Game": "7777/tcp",
+                "Back": "7878/tcp"
+            }
+        ],
+        "network_mode": "bridge",
+        "volumes": [
+            {
+                "container": "/config",
+                "bind": "/srvconfs/Terraria"
+            }
+        ],
+        "env": [],
+        "command": [
+            "-world",
+            "Koatari.wld",
+            "-autocreate",
+            "2",
+            "-config",
+            "/config/expert.txt"
+        ],
+        "logo": "https://static.wikia.nocookie.net/terraria_gamepedia/images/2/25/TShock.png",
+        "note": "PLUGIN SUPPORT HAS YET TO BE IMPLEMENTED! Default plugins will be used! Be sure to check the Commands sections under the Advanced tab for configuration! Edit command 1 to change the world name. Edit command 3 to change the world size (1-Small, 2-Medium, 3-Large). Edit command 5 to change the world difficulty (classic.txt, expert.txt, master.txt)."
     }
 ]
