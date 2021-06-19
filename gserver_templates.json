@@ -39,6 +39,7 @@
         "network_mode": "bridge"
     },
     {
+        "type": 1,
         "title": "Minecraft",
         "name": "vMC",
         "image": "itzg/minecraft:latest",
