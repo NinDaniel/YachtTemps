@@ -1,0 +1,26 @@
+[
+    {
+        "type": "1",
+        "title": "Terraria",
+        "name": "vTerraria",
+        "image": "ryshe/terraria:vanilla-latest",
+        "description": "A vanilla Terraria server.",
+        "categories": [
+            "Gaming"
+        ],
+        "platform": "linux",
+        "restart_policy": "unless-stopped",
+        "ports": [
+            {
+                "Game": "7777/tcp"
+            }
+        ],
+        "volumes": [
+            {
+                "container": "/config",
+                "bind": "/srvconfs/Terraria"
+            }
+        ],
+        "note": "Be sure to check the Commands sections under the Advanced tab for configuration! Edit command 1 to change the world name. Edit command 3 to change the world size (1-Small, 2-Medium, 3-Large). Edit command 5 to change the world difficulty (classic.txt, expert.txt, master.txt)."
+    }
+]
