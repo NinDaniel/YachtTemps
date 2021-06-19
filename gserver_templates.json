@@ -2,7 +2,7 @@
     {
         "type": 1,
         "title": "Terraria",
-        "name": "vterra",
+        "name": "vTerra",
         "image": "ryshe/terraria:vanilla-latest",
         "description": "A vanilla Terraria server :D",
         "categories": [
@@ -39,16 +39,16 @@
         "network_mode": "bridge"
     },
     {
-        "type": 1,
         "title": "Minecraft",
-        "name": "vmc",
+        "name": "vMC",
         "image": "itzg/minecraft:latest",
         "description": "A vanilla java Minecraft server :D",
         "categories": [
             "Gaming"
         ],
         "platform": "linux",
-        "note": "For a full list of environment variables, click <a href='https://github.com/itzg/docker-minecraft-server/blob/master/README.md#server-configuration'/>here</a>",
+        "note": "For a full list of environment variables, click <a href='https://github.com/itzg/docker-minecraft-server/blob/master/README.md#server-configuration' target='_blank'/>here</a>.",
+        "restart_policy": "unless-stopped",
         "ports": [
             {
                 "Game": "25565/tcp",
@@ -59,22 +59,26 @@
         "env": [
             {
                 "name": "EULA",
+                "label": "EULA",
                 "default": "TRUE",
                 "description": "Enables EULA (Required)"
             },
             {
                 "name": "SERVER_NAME",
+                "label": "SERVER_NAME",
                 "default": "My Server",
                 "description": "Sets the displayed server name"
             },
             {
                 "name": "DIFFICULTY",
+                "label": "DIFFICULTY",
                 "default": "normal",
                 "description": "Valid values are: peaceful, easy, normal, and hard"
             },
             {
 
                 "name": "OPS",
+                "label": "OPS",
                 "default": "NinxDaniel,SomeOtherDude",
                 "description": "Sets the administrators of the server. Add additional users through commas: user1,user2"
             }
