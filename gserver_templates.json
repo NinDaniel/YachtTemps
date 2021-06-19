@@ -42,7 +42,7 @@
         "type": 1,
         "title": "Minecraft",
         "name": "vMC",
-        "image": "itzg/minecraft:latest",
+        "image": "itzg/minecraft-server:latest",
         "description": "A vanilla java Minecraft server :D",
         "categories": [
             "Gaming"
