@@ -1,80 +1,82 @@
 [
-  {
-    "title": "Terraria",
-    "name": "vterra",
-    "image": "ryshe/terraria:vanilla-latest",
-    "description": "A vanilla Terraria server :D",
-    "categories": [
-      "Gaming"
-    ],
-    "platform": "linux",
-    "note": "",
-    "restart_policy": "unless-stopped",
-    "ports": [
-      {
-        "Game": "7777/tcp"
-      }
-    ],
-    "volumes": [
-      {
-        "container": "/config",
-        "bind": "/srvconfs/Terraria"
-      }
-    ],
-    "env": [],
-    "command": [
-      "-world",
-      "Pachinko.wld",
-      "-autocreate",
-      "2",
-      "-config",
-      "expert.txt"
-    ],
-    "devices": [],
-    "labels": [],
-    "sysctls": [],
-    "cap_add": [],
-    "logo": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png",
-    "network_mode": "bridge"
-  },
-  {
-    "title": "Minecraft",
-    "name": "vmc",
-    "image": "itzg/minecraft:latest",
-    "description": "A vanilla java Minecraft server :D",
-    "categories": [
-      "Gaming"
-    ],
-    "platform": "linux",
-    "note": "",
-    "restart_policy": "unless-stopped",
-    "ports": [
-      {
-        "Game": "25565/tcp"
-      },
-      {
-        "RCON": "25575/tcp"
-      }
-    ],
-    "volumes": [
-      {
-        "container": "/config",
-        "bind": "/srvconfs/Minecraft"
-      }
-    ],
-    "env": [
-      {
-        "name": "EULA",
-        "default": "TRUE",
-        "description": "Enables EULA (Required)"
-      }
-    ],
-    "command": [],
-    "devices": [],
-    "labels": [],
-    "sysctls": [],
-    "cap_add": [],
-    "logo": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png",
-    "network_mode": "bridge"
-  }
+    {
+        "type": 1,
+        "title": "Terraria",
+        "name": "vterra",
+        "image": "ryshe/terraria:vanilla-latest",
+        "description": "A vanilla Terraria server :D",
+        "categories": [
+            "Gaming"
+        ],
+        "platform": "linux",
+        "note": "UNDER DEVELOPMENT",
+        "restart_policy": "unless-stopped",
+        "ports": [
+            {
+                "Game": "7777/tcp"
+            }
+        ],
+        "volumes": [
+            {
+                "container": "/config",
+                "bind": "/srvconfs/Terraria"
+            }
+        ],
+        "env": [],
+        "command": [
+            "-world",
+            "Pachinko.wld",
+            "-autocreate",
+            "2",
+            "-config",
+            "expert.txt"
+        ],
+        "devices": [],
+        "labels": [],
+        "sysctls": [],
+        "cap_add": [],
+        "logo": "https://static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png",
+        "network_mode": "bridge"
+    },
+    {
+        "type": 1,
+        "title": "Minecraft",
+        "name": "vmc",
+        "image": "itzg/minecraft:latest",
+        "description": "A vanilla java Minecraft server :D",
+        "categories": [
+            "Gaming"
+        ],
+        "platform": "linux",
+        "note": "",
+        "restart_policy": "unless-stopped",
+        "ports": [
+            {
+                "Game": "25565/tcp"
+            },
+            {
+                "RCON": "25575/tcp"
+            }
+        ],
+        "volumes": [
+            {
+                "container": "/config",
+                "bind": "/srvconfs/Minecraft"
+            }
+        ],
+        "env": [
+            {
+                "name": "EULA",
+                "default": "TRUE",
+                "description": "Enables EULA (Required)"
+            }
+        ],
+        "command": [],
+        "devices": [],
+        "labels": [],
+        "sysctls": [],
+        "cap_add": [],
+        "logo": "https://www.minecraft.net/etc.clientlibs/minecraft/clientlibs/main/resources/img/header/logo.png",
+        "network_mode": "bridge"
+    }
 ]
