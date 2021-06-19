@@ -52,9 +52,7 @@
         "restart_policy": "unless-stopped",
         "ports": [
             {
-                "Game": "25565/tcp"
-            },
-            {
+                "Game": "25565/tcp",
                 "RCON": "25575/tcp"
             }
         ],
