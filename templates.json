@@ -49,8 +49,7 @@
         "restart_policy": "unless-stopped",
         "ports": [
             {
-                "Game": "7777/tcp",
-                "Back": "7878/tcp"
+                "Game": "7777/tcp"
             }
         ],
         "network_mode": "bridge",
