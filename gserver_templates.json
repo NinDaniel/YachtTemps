@@ -56,12 +56,7 @@
                 "RCON": "25575/tcp"
             }
         ],
-        "volumes": [
-            {
-                "container": "/config",
-                "bind": "/srvconfs/Minecraft"
-            }
-        ],
+        "volumes": [],
         "env": [
             {
                 "name": "EULA",
