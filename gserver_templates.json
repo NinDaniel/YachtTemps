@@ -94,7 +94,7 @@
     },
     {
         "type": 1,
-        "title": "Bedrock Minecraft",
+        "title": "Minecraft Bedrock Edition",
         "name": "bMC",
         "image": "itzg/minecraft-bedrock-server:latest",
         "description": "A vanilla Minecraft Bedrock server :D",
