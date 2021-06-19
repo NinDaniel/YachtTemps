@@ -21,6 +21,16 @@
                 "bind": "/srvconfs/Terraria"
             }
         ],
+        "env": [],
+        "command": [
+            "-world",
+            "Pachinko.wld",
+            "-autocreate",
+            "2",
+            "-config",
+            "/config/expert.txt"
+        ],
+        "logo": "https: //static.wikia.nocookie.net/terraria_gamepedia/images/a/a4/NewPromoLogo.png",
         "note": "Be sure to check the Commands sections under the Advanced tab for configuration! Edit command 1 to change the world name. Edit command 3 to change the world size (1-Small, 2-Medium, 3-Large). Edit command 5 to change the world difficulty (classic.txt, expert.txt, master.txt)."
     }
 ]
