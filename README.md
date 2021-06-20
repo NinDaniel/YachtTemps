@@ -20,6 +20,7 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 - Vault
 - Bitwarden
 - Wireguard
+- Authelia
 
 ### Gaming Servers
 - tShock full implementation
