@@ -32,4 +32,5 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 - Factorio
 - Starbound
 - The Ship
+- Unturned
 - Add even more servers lmao
