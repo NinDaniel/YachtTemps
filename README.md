@@ -33,4 +33,6 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 - Starbound
 - The Ship
 - Unturned
+- Valheim
+- L4D 1 & 2
 - Add even more servers lmao
