@@ -29,4 +29,5 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 - Garry's Mod
 - Risk of Rain
 - Risk of Rain 2 (With mods also?)
+- Factorio
 - Add even more servers lmao
