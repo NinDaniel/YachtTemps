@@ -36,4 +36,5 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 - Unturned
 - Valheim
 - L4D 1 & 2
+- Gang Beasts
 - Add even more servers lmao
