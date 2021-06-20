@@ -16,7 +16,7 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 
 ## To-do
 
-Here's a list of servers to implement through premade images or perhaps future self made ones, who knows really.
+Here's a list of servers to implement through premade images or perhaps future self made ones, who knows really, as well as some general upgrades to the platform.
 
 Ordered in no particular way.
 
