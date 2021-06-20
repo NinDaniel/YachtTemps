@@ -10,19 +10,17 @@ If you don't see a game server you'd like, please feel free to submit a pull req
 ### Servers
 - Guacamole
 
-### Gaming Servers
+### Game Servers
 - Vanilla Terraria
 - Vanilla Minecraft
 
 ## To-do
 
-### Servers
-- Vault
-- Bitwarden
-- Wireguard
-- Authelia
+### Server Upgrades
+- Authelia logins
+- DuckDNS
 
-### Gaming Servers
+### Game Servers
 - tShock full implementation
 - tModLoader
 - Minecraft
